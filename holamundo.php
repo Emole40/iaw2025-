@@ -16,14 +16,16 @@
     // Declarar variables
     $texto = "Este es un ejemplo de texto.";
 	echo "$texto";
-	var_dump($texto);
-	echo "<br</br>";
+	var_dump ($texto);
+	echo "<br></br>";
     $nombre = "Eusebio Moreno";
 	echo "$nombre";
-	var_dump($nombre);
+	var_dump ($nombre);
+	echo "<br></br>";
     $boolean = true;
 	echo "$boolean";
-	var_dump($boolean);
+	var_dump ($boolean);
+	echo "<br></br>";
     ?>
 </body>
 </html>
