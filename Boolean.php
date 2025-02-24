@@ -10,8 +10,13 @@
         $x=TRUE;
         $y=FALSE;
         $z=($y OR $x);
-        #echo ($z) ? "TRUE" : "FALSE";
-        var_dump ($z)    
+        if ($z) {
+            echo "TRUE";
+        }    
+        else {
+            echo "FALSE";    
+        }
+        #var_dump ($z)
     ?>
 </body>
 </html>
